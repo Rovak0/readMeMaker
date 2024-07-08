@@ -5,6 +5,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 //i need the markdown file
 const markDown = require('./utils/generateMarkdown.js')
+//this is only the markdown maker
 
 // TODO: Create an array of questions for user input
 //THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -20,7 +21,12 @@ const questions = ["What is the title of your project?", "Please write a descrip
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//the write to file will be made last
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.log(err) : console.log("working")
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -74,6 +80,9 @@ function init() {
         .then( function(response){
             console.log(response);
             //the response is an object with all the components
+            const generatedReadMe = markDown(response);
+            console.log(generatedReadMe);
+            writeToFile('newReadMe.md', generatedReadMe);
         })
 
 }
