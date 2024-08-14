@@ -1,15 +1,15 @@
 # Read me maker
-  ## Table of Contents
-  [Description](#Description)  
-  [Install](#Install)  
-  [Usage](#Usage)  
-  [Liscenses](#Liscenses)  
-  [Contribute](#Contribute)  
-  [Testing](#Testing)  
-  [Questions](#Questions)  
+## Table of Contents
+[Description](#Description)  
+[Install](#Install)  
+[Usage](#Usage)  
+[Liscenses](#Liscenses)  
+[Contribute](#Contribute)  
+[Testing](#Testing)  
+[Questions](#Questions)  
 
-  ## Description </a>
-  It makes read me based on terminal inputs Here's how things broke for Commander Masters...
+## Description </a>
+It makes read me based on terminal inputs Here's how things broke for Commander Masters...
 
 Total number of commanders: 8
 Total number of commander decks: 35,641
@@ -39,16 +39,16 @@ But that wasn't always obvious. Even at debut, these decks were highly sought-af
 Clearly, it didn't, which is a good takeaway moving forward. Many players likely just bought the commanders as singles (all but Zhulodok are highly affordable), while some others probably theory-crafted lists even without the cards. And for those who bought the decks, 99 and all, I salute you.
 
 Now for some commander-by-commander analysis.
-  ## Install Instructions </a>
-  Pull it from github
-  ## Usage Instructions </a>
-  In the terminal
-  ## Liscenses </a>
-  None
-  ## How to Contribute </a>
-  Fork the repo
-  ## Testing </a>
-  None
-  ## Questions </a>
-  Find me on [GitHub!](https://github.com/Rovak0)
-  Or contact me with [email!](ericjackwong@outlook.com)
+## Install Instructions </a>
+Pull it from github
+## Usage Instructions </a>
+In the terminal
+## Liscenses </a>
+None
+## How to Contribute </a>
+Fork the repo
+## Testing </a>
+None
+## Questions </a>
+Find me on [GitHub!](https://github.com/Rovak0)
+Or contact me with [email!](ericjackwong@outlook.com)
