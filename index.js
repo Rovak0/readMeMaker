@@ -24,7 +24,7 @@ const questions = ["What is the title of your project?", "Please write a descrip
 //the write to file will be made last
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log("working")
+        err ? console.log(err) : console.log("Saved to examples")
     );
 }
 
