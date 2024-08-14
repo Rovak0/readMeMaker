@@ -82,7 +82,7 @@ function init() {
             //the response is an object with all the components
             const generatedReadMe = markDown(response);
             console.log(generatedReadMe);
-            writeToFile('newReadMe.md', generatedReadMe);
+            writeToFile('./storage/README.md', generatedReadMe);
         })
 
 }
